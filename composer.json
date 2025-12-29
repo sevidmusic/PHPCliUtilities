@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "phpstan/phpstan": "^2.1",
-        "phpunit/phpunit": "^12.5"
+        "phpunit/phpunit": "^12.5",
+        "darling/php-unit-test-utilities": "^1.0"
     },
     "license": "MIT",
     "autoload": {
