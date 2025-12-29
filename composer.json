@@ -1,0 +1,22 @@
+{
+    "name": "darling/php-cli-utilities",
+    "description": "Provides classes to aide in development of CLI programs written in php.",
+    "type": "library",
+    "require": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Darling\\PhpCliUtilities\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sevi Darling",
+            "email": "sdmwebsdm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
