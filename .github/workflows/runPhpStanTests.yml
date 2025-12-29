@@ -2,9 +2,9 @@ name: Run php stan tests
 
 on:
   push:
-    branches: [ "Roady" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "Roady" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -31,7 +31,7 @@ jobs:
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
-      
+
     - name: Run phpstan analysis at level 9
       run: ./vendor/bin/phpstan analyze --level 9 ./src ./tests
 
